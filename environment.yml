@@ -1,0 +1,27 @@
+name:7030_class_ML_py
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+channels:
+  - biconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - r-base
+  - pip
+  - pip:
+      - numpy
+      - scipy
+      - matplotlib
+      - pandas
+      - scikit-learn
+  - r-ggplot2
+  - r-tidyverse
+  - r-caret
+  - r-irkernel
+  - ipykernel
+
+
+
